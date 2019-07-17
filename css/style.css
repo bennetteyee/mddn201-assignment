@@ -43,6 +43,7 @@ header{
 .header p{
 	padding-left: 100px;
 	padding-bottom: 0px;
+	color: black;
 
 }
 
@@ -52,6 +53,11 @@ header{
 	padding-bottom: 100px;
 	padding-right: 100px;
 	padding-left: 100px;
+
+}
+
+.titleHeader h1, p{
+	color: white;
 
 }
 
@@ -73,8 +79,8 @@ nav li {
   display: inline-block;
   margin-left: 200px;
   padding-top: 23px;
-
   position: relative;
+  text-decoration: none;
 }
 
 nav h3{
@@ -88,7 +94,8 @@ nav h3{
 }
 
 nav a:hover{
-	text-decoration: underline; /* Hover styles to let people know they can click it */
+	color: white;
+
 }
 
 
@@ -103,20 +110,13 @@ nav a:hover{
 	width: 100%; /*This makes all images in grids to be the size of their cell */
 }
 
-.g-50{
-	width: 50%;
-	float: left;
-}
-
 .g-30{
-	width: 30%;
-	float: left;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.g-70{
-	width: 70%;
-	float: left;
-}
+
 
 .show{
 	border: 1px solid blue;
